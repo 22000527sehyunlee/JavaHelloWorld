@@ -4,10 +4,11 @@ public class hello {
 	public static void main(String[] args) {
 		Scanner s = new Scanner (System.in);
 		
-		System.out.ptintln("Hello World!!!\n");
-		System.out.print("ÀÌ¸§ ÀÔ·Â : ");
+		
+		System.out.println("Hello World!!!");
+		System.out.println("ì´ë¦„ ì…ë ¥ : ");
 		String name = s.next();
-		System.out.println("["+name+"]´Ô È¯¿µÇÕ´Ï´Ù~~~~~");
+		System.out.println("["+name+"]ë‹˜ í™˜ì˜í•©ë‹ˆë‹¤~");
+		s.close();
 	}
-
 }
